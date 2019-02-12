@@ -1,2 +1,1 @@
-# -spring-effect
-on Canvas
+# Эффект пружины
