@@ -7,8 +7,8 @@
     "build": "webpack --mode production",
     "dev": "webpack-dev-server --mode development --open"
   },
-  "author": "CreativeRusBear",
-  "license": "ISC",
+  "author": "Artem Gusev (corocoto) <gusev2014russia@mail.ru>",
+  "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
@@ -17,10 +17,10 @@
     "css-loader": "^0.28.11",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "path": "^0.12.7",
-    "terser": "^3.14.1",
-    "webpack": "^4.29.0",
-    "webpack-cli": "^3.2.1",
-    "webpack-dev-server": "^3.1.14"
+    "terser": "^3.17.0",
+    "webpack": "^4.44.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {}
 }
