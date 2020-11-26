@@ -1,6 +1,12 @@
 {
   "presets": [
-    "env",
-    "stage-3"
+    [
+      "@babel/preset-env",
+      {
+        "modules": "commonjs",
+        "useBuiltIns": "usage",
+        "corejs": "3.8"
+      }
+    ]
   ]
 }
