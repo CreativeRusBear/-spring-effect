@@ -22,7 +22,7 @@ module.exports = merge(baseConfig, {
     optimization: {
         minimize: true,
         runtimeChunk: {
-            name: 'runtime'
+            name: 'single'
         }
     },
     performance: {
