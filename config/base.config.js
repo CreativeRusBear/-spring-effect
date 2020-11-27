@@ -3,7 +3,13 @@ const htmlWebpackPlugin = require('html-webpack-plugin');
 const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 
 module.exports = {
-    entry: paths.src + '/js/script.js',
+    entry: {
+        modules: [paths.src + '/js/mouse.js', paths.src + '/js/ball.js'],
+        index: {
+            import: paths.src + '/js/script.js',
+            dependOn: 'modules'
+        },
+    },
     output: {
         path: paths.dist,
         publicPath: '/',
